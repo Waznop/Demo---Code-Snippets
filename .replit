@@ -1,0 +1,2 @@
+language = "cpp"
+run = "clang-format *.cpp -i -style=google -verbose && g++ -std=c++17 main.cpp && ./a.out"
