@@ -4,23 +4,30 @@
 #include <vector>
 using namespace std;
 
+// Return how many odd VALUES there are in the map
 // Hints: M1, K2
 int count_odd_values(const map<int, int>& m) { return -1; }
 
+// Return the index of the first dimension (a[i]) with the largest sum
 // Hints: A1, K1, A1, A1, K4
 int biggest_first_dimension(const int a[3][3][3]) { return -1; }
 
+// Return the smallest difference between indices in the two vectors (v1[i] and
+// v2[i]). If they don't have the same length, return -1.
 // Hint: V4, V1, K3
 int smallest_difference(const vector<int>& v1, const vector<int>& v2) {
   return -1;
 }
 
+// Return the list of names from the lottery map who chose a number that's among
+// the winning numbers.
 // Hint: V7, M1, S1, K2
 vector<string> lottery_winners(const map<string, set<int>>& lottery,
                                const set<int>& winning_numbers) {
   return {};
 }
 
+// Remove duplicates from the vector while keeping the same ordering.
 // Hint: V7, V1, K2, V5 / V6
 void remove_dupes(vector<int>& v) { return; }
 
